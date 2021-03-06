@@ -32,9 +32,9 @@
 
 #include <Arva.pb.h>
 
-#define X_REF 50
-#define Y_REF -50
-#define Z_REF 0
+#define X_REF 41.1
+#define Y_REF -27.6
+#define Z_REF -10
 
 /*
 #define QW_REF 1

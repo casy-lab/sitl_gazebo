@@ -114,7 +114,7 @@ void ArvaPlugin::OnUpdate(const common::UpdateInfo&){
 
   // From Transmitter to Inertial
   // FIRST Rotation PHI - SECOND THETA - THIRD PSI
-  Rt = Rz*Ry*Rx; 
+  Rt = (Rx*Ry*Rz).transpose();
   
   /*
   Rt << 1-2*pow(q2, 2)-2*pow(q3, 2), 2*q1*q2-2*q0*q3, 2*q1*q3+2*q0*q2,
