@@ -9,16 +9,9 @@
     <include>
       <uri>model://ground_plane</uri>
     </include>
-    <!-- An asphalt plane -->
-<!--
     <include>
-      <uri>model://asphalt_plane</uri>
+      <uri>model://asphalt_large_plane</uri>
     </include>
--->
-    <include>
-      <uri>model://uneven_ground</uri>
-    </include>
-
     <include>
       <uri>model://iris_opt_flow</uri>
       <pose>0 0 0 0 0 1.7</pose>

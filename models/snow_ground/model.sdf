@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="snow ground">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+       <geometry>
+            <heightmap>
+              <uri>model://snow_ground/materials/textures/Map_test.png</uri>
+              <size>100 100 50</size>
+              <pos>0 0 0</pos>
+            </heightmap>
+       </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <heightmap>
+              <texture>
+                <diffuse>model://snow_ground/materials/textures/snow.jpg</diffuse>
+                <normal>model://snow_ground/materials/textures/flat_normal.png</normal>
+                <size>200</size>
+              </texture>
+              <uri>model://snow_ground/materials/textures/Map_test.png</uri>
+              <size>100 100 50</size>
+              <pos>0 0 0</pos>
+           </heightmap>
+         </geometry>
+       </visual>
+    </link>
+  </model>
+</sdf>

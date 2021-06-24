@@ -17,7 +17,7 @@
           <heightmap>
              <use_terrain_paging>false</use_terrain_paging>
               <texture>
-                <diffuse>model://uneven_ground/materials/textures/snow.jpg</diffuse>
+                <diffuse>model://uneven_ground/materials/textures/tarmac.jpg</diffuse>
                 <normal>model://uneven_ground/materials/textures/flat_normal.png</normal>
                 <size>1</size>
               </texture>
